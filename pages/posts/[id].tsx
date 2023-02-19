@@ -1,4 +1,4 @@
-export default (props: { id: string }) => {
+export default function Page(props: { id: string }) {
     return <div>Post {props.id}</div>
 }
 
